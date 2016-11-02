@@ -6,13 +6,34 @@
 
 *This is a fork from [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog).*
 
-### install with npm
 
-`npm install --save-dev cz-conventional-changelog-emoji`
+![commitizen emoji](https://github.frapsoft.com/top/commitizen-emoji.jpg?v=101)
 
-### install with yarn
+### Hell yeah, how?
 
-`yarn add --dev cz-conventional-changelog-emoji`
+```bash
+npm install -g commitizen
+commitizen init cz-conventional-changelog-emoji --save-dev --save-exact
+```
+
+### What's about Changelog?
+
+`npm install --save-dev conventional-changelog-angular-emoji`
+
+<https://www.npmjs.com/package/conventional-changelog-angular-emoji>
+
+and add this to your package.json
+
+```
+  "commitizen": {
+    "path": "cz-conventional-changelog-emoji"
+  },
+```
+
+### Dude just let me use it
+
+No time for setting up all that stuff?  
+No worries! All that and lot more awesome stuff ready to use with [node-developer-boilerplate](https://github.com/ellerbrock/node-developer-boilerplate).
 
 ### Preview:
 
@@ -37,7 +58,6 @@ ci(xxx): :computer: Continuous Integration
 chore(xxx): :ticket: Chores
 
 revert(xxx): :back: Reverts
-
 
 ### Video Course on [egghead.io](https://egghead.io)
 
