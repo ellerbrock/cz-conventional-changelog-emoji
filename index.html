@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>cz-conventional-changelog-emoji by ellerbrock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">cz-conventional-changelog-emoji</h1>
+      <h2 class="project-tagline">A commitizen adapter for the angular preset with emojis</h2>
+      <a href="https://github.com/ellerbrock/cz-conventional-changelog-emoji" class="btn">View on GitHub</a>
+      <a href="https://github.com/ellerbrock/cz-conventional-changelog-emoji/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/ellerbrock/cz-conventional-changelog-emoji/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="cz-conventional-changelog-emoji" class="anchor" href="#cz-conventional-changelog-emoji" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="https://www.npmjs.com/package/cz-conventional-changelog-emoji">cz-conventional-changelog-emoji</a>
+</h1>
+
+<p><a href="https://github.com/ellerbrock/javascript-badges/"><img src="https://badges.frapsoft.com/javascript/code/javascript.svg?v=100" alt="Javascript"></a> <a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=102" alt="Open Source Love"></a> <a href="https://gitter.im/frapsoft/frapsoft/"><img src="https://badges.gitter.im/frapsoft/frapsoft.svg" alt="Gitter Chat"></a></p>
+
+<h2>
+<a id="angular-git-commit-guidelines-with-emojis" class="anchor" href="#angular-git-commit-guidelines-with-emojis" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#type">Angular Git Commit Guidelines</a> with Emojis</h2>
+
+<p><em>This is a fork from <a href="https://github.com/commitizen/cz-conventional-changelog">cz-conventional-changelog</a>.</em></p>
+
+<p><img src="https://github.frapsoft.com/top/commitizen-emoji.jpg?v=101" alt="commitizen emoji"></p>
+
+<h3>
+<a id="hell-yeah-how" class="anchor" href="#hell-yeah-how" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hell yeah, how?</h3>
+
+<div class="highlight highlight-source-shell"><pre>npm install -g commitizen
+commitizen init cz-conventional-changelog-emoji --save-dev --save-exact</pre></div>
+
+<h3>
+<a id="whats-about-changelog" class="anchor" href="#whats-about-changelog" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What's about Changelog?</h3>
+
+<p><code>npm install --save-dev conventional-changelog-angular-emoji</code></p>
+
+<p><a href="https://www.npmjs.com/package/conventional-changelog-angular-emoji">https://www.npmjs.com/package/conventional-changelog-angular-emoji</a></p>
+
+<p>and add this to your package.json</p>
+
+<pre><code>  "commitizen": {
+    "path": "cz-conventional-changelog-emoji"
+  },
+</code></pre>
+
+<h3>
+<a id="dude-just-let-me-use-it" class="anchor" href="#dude-just-let-me-use-it" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dude just let me use it</h3>
+
+<p>No time for setting up all that stuff?<br>
+No worries! All that and lot more awesome stuff ready to use with <a href="https://github.com/ellerbrock/node-developer-boilerplate">node-developer-boilerplate</a>.</p>
+
+<h3>
+<a id="preview" class="anchor" href="#preview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Preview:</h3>
+
+<p>feat(xxx): <g-emoji alias="sparkles" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2728.png" ios-version="6.0">✨</g-emoji> Features your commit message</p>
+
+<p>fix(xxx): <g-emoji alias="bug" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f41b.png" ios-version="6.0">🐛</g-emoji> Bug Fixes</p>
+
+<p>docs(xxx): <g-emoji alias="book" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4d6.png" ios-version="6.0">📖</g-emoji> Documentation</p>
+
+<p>style: <g-emoji alias="gem" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f48e.png" ios-version="6.0">💎</g-emoji> Styles</p>
+
+<p>refactor: <g-emoji alias="package" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4e6.png" ios-version="6.0">📦</g-emoji> Code Refactoring</p>
+
+<p>perf(xxx): <g-emoji alias="rocket" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f680.png" ios-version="6.0">🚀</g-emoji> Performance Improvements</p>
+
+<p>test(xxx): <g-emoji alias="rotating_light" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f6a8.png" ios-version="6.0">🚨</g-emoji> Tests</p>
+
+<p>build(xxx): <g-emoji alias="construction_worker_man" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f477.png" ios-version="6.0">👷</g-emoji> Build</p>
+
+<p>ci(xxx): <g-emoji alias="computer" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" ios-version="6.0">💻</g-emoji> Continuous Integration</p>
+
+<p>chore(xxx): <g-emoji alias="ticket" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3ab.png" ios-version="6.0">🎫</g-emoji> Chores</p>
+
+<p>revert(xxx): <g-emoji alias="back" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f519.png" ios-version="6.0">🔙</g-emoji> Reverts</p>
+
+<h3>
+<a id="video-course-on-eggheadio" class="anchor" href="#video-course-on-eggheadio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Video Course on <a href="https://egghead.io">egghead.io</a>
+</h3>
+
+<ul>
+<li><a href="https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-writing-conventional-commits-with-commitizen">Writing conventional commits with commitizen</a></li>
+<li><a href="https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-committing-a-new-feature-with-commitizen">Committing a new feature with commitizen</a></li>
+</ul>
+
+<h3>
+<a id="contact--social-media" class="anchor" href="#contact--social-media" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact / Social Media</h3>
+
+<p><em>Get the latest News about Web Development, Open Source, Tooling, Server &amp; Security</em></p>
+
+<p><a href="https://twitter.com/frapsoft/"><img src="https://github.frapsoft.com/social/twitter.png" alt="Twitter"></a><a href="https://www.facebook.com/frapsoft/"><img src="https://github.frapsoft.com/social/facebook.png" alt="Facebook"></a><a href="https://plus.google.com/116540931335841862774"><img src="https://github.frapsoft.com/social/google-plus.png" alt="Google+"></a><a href="https://gitter.im/frapsoft/frapsoft/"><img src="https://github.frapsoft.com/social/gitter.png" alt="Gitter"></a><a href="https://github.com/ellerbrock/"><img src="https://github.frapsoft.com/social/github.png" alt="Github"></a></p>
+
+<h3>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h3>
+
+<p>Copyright (c) 2016 <a href="https://github.com/ellerbrock/">Maik Ellerbrock</a></p>
+
+<p><a href="https://opensource.org/licenses/mit-license.php"><img src="https://badges.frapsoft.com/os/mit/mit-125x28.png?v=102" alt="MIT Licence"></a></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/ellerbrock/cz-conventional-changelog-emoji">cz-conventional-changelog-emoji</a> is maintained by <a href="https://github.com/ellerbrock">ellerbrock</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
