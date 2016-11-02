@@ -1,26 +1,18 @@
 # [cz-conventional-changelog-emoji](https://www.npmjs.com/package/cz-conventional-changelog-emoji)
 
-> [conventional-changelog](https://github.com/ajoslin/conventional-changelog) angular-emoji preset
-
 [![Javascript](https://badges.frapsoft.com/javascript/code/javascript.svg?v=100)](https://github.com/ellerbrock/javascript-badges/) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badges/) [![Gitter Chat](https://badges.gitter.im/frapsoft/frapsoft.svg)](https://gitter.im/frapsoft/frapsoft/)
 
 ## [Angular Git Commit Guidelines](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#type) with Emojis 
 
-*This is a fork from [conventional-changelog-angular](https://github.com/conventional-changelog/conventional-changelog-angular).*
+*This is a fork from [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog).*
 
 ### install with npm
 
-`npm install --save-dev conventional-changelog-angular-emoji`
+`npm install --save-dev cz-conventional-changelog-emoji`
 
 ### install with yarn
 
-`yarn add --dev conventional-changelog-angular-emoji`
-
-### Update Information:
-
-Update commit convention from [Angular 1x](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#type) to [Angular 2x](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#type).
-
-- added: build, ci
+`yarn add --dev cz-conventional-changelog-emoji`
 
 ### Preview:
 
