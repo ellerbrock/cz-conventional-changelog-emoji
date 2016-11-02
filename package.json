@@ -1,6 +1,6 @@
 {
   "name": "cz-conventional-changelog-emoji",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Commitizen adapter following the conventional-changelog format with emojis.",
   "main": "index.js",
   "author": "Maik Ellerbrock <opensource@frapsoft.com> (https://github.com/ellerbrock)",
