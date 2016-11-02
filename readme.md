@@ -12,7 +12,7 @@
 ### Hell yeah, how?
 
 ```bash
-npm install -g commitizen
+npm install -g commitizen cz-conventional-changelog-emoji
 commitizen init cz-conventional-changelog-emoji --save-dev --save-exact
 ```
 
