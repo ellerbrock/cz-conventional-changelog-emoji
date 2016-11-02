@@ -17,7 +17,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "conventional-commit-types-emoji": "0.0.0",
+    "conventional-commit-types-emoji": "0.0.1",
     "lodash.map": "^4.6.0",
     "longest": "^1.0.1",
     "pad-right": "^0.2.2",
