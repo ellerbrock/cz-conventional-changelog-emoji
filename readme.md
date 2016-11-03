@@ -16,19 +16,20 @@ npm install -g commitizen cz-conventional-changelog-emoji
 commitizen init cz-conventional-changelog-emoji --save-dev --save-exact
 ```
 
-### What's about Changelog?
-
-`npm install --save-dev conventional-changelog-angular-emoji`
-
-<https://www.npmjs.com/package/conventional-changelog-angular-emoji>
-
-and add this to your package.json
+the command add this to your package.json:
 
 ```
   "commitizen": {
     "path": "cz-conventional-changelog-emoji"
   },
 ```
+
+### What's about Changelog?
+
+`npm install --save-dev conventional-changelog-angular-emoji`
+
+<https://www.npmjs.com/package/conventional-changelog-angular-emoji>
+
 
 ### Dude just let me use it
 
