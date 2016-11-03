@@ -1,8 +1,8 @@
 {
   "name": "cz-conventional-changelog-emoji",
   "description": "Commitizen adapter following the conventional-changelog format with emojis",
-  "version": "0.0.5",
-  "main": "index.js",
+  "version": "0.1.0",
+  "main": "src/index.js",
   "author": "Maik Ellerbrock <opensource@frapsoft.com> (https://github.com/ellerbrock)",
   "homepage": "https://github.com/ellerbrock/cz-conventional-changelog-emoji",
   "repository": {
@@ -12,10 +12,15 @@
   "license": "MIT",
   "scripts": {
     "test": "echo 'Tests need to be setup!'",
+    "lint": "jshint src/*.js",
+    "prerelease": "run lint",
     "release": "standard-version",
     "post-release": "greenkeeper-postpublish",
     "commit": "git add --all && git status && git-cz"
   },
+  "files": [
+    "src"
+  ],
   "keywords": [
     "angular",
     "conventional-commits",
@@ -32,6 +37,7 @@
   },
   "devDependencies": {
     "commitizen": "2.8.6",
+    "jshint": "2.9.4",
     "standard-version": "3.0.0"
   }
 }
