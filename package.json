@@ -36,7 +36,7 @@
     "word-wrap": "^1.1.0"
   },
   "devDependencies": {
-    "commitizen": "2.9.4",
+    "commitizen": "2.9.5",
     "jshint": "2.9.4",
     "standard-version": "4.0.0"
   }
