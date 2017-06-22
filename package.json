@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "commitizen": "2.9.5",
-    "jshint": "2.9.4",
+    "jshint": "2.9.5",
     "standard-version": "4.2.0"
   }
 }
